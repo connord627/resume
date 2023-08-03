@@ -1,0 +1,43 @@
+html {
+  font-family: "Monaco", monospace;
+  font-size: 20px;
+}
+
+body {
+  background-color: #000;
+}
+
+ul {
+   list-style-type: none;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+ }
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #dbbc56;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+footer {
+  color: #FFF;
+  text-align: center;
+  font-size: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
